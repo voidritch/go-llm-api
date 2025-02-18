@@ -1,7 +1,9 @@
-import {
-	fmt
-}
+package main
 
-void main() {
-	panic("not ready");
+import "fmt"
+
+func main() {
+	fmt.Println("Something")
+	// Comment
+	panic("not ready")
 }
